@@ -1,0 +1,15 @@
+setup.py
+zoopla/__init__.py
+zoopla/items.py
+zoopla/middlewares.py
+zoopla/pipelines.py
+zoopla/settings.py
+zoopla.egg-info/PKG-INFO
+zoopla.egg-info/SOURCES.txt
+zoopla.egg-info/dependency_links.txt
+zoopla.egg-info/entry_points.txt
+zoopla.egg-info/not-zip-safe
+zoopla.egg-info/top_level.txt
+zoopla/resources/TS All addresses Updated 08 April_1.txt
+zoopla/spiders/__init__.py
+zoopla/spiders/main.py
