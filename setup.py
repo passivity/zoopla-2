@@ -3,12 +3,12 @@
 from setuptools import setup, find_packages
 
 setup(
-    name         = 'project',
+    name         = 'zoopla',
     version      = '1.0',
     packages     = find_packages(),
     entry_points = {'scrapy': ['settings = zoopla.settings']},
     package_data={
-        "project": ["resources/*.txt"]
+        "zoopla": ["resources/*.txt"]
     },
     zip_safe=False
 )
