@@ -33,7 +33,7 @@ class ZooplaSpider(scrapy.Spider):
             listing_tag = html.find("span", {"data-testid": "listing-tag"})
             sale_description = list(listing_tag.parent.children)[-1]
 
-            if listing_tag.text == "Currently For Sale" and sale_description.children:
+            if listing_tag.text in ("Currently For Sale", "Currently For Rent") and sale_description.children:
                 links = map(
                     lambda x: "https://www.zoopla.co.uk" + x["href"],
                     sale_description.find_all("a"),
