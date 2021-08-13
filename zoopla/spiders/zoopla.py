@@ -40,7 +40,7 @@ class ZooplaSpider(scrapy.Spider):
                 )
 
                 if links:
-                    title = html.find("h1", class_="ebcgyxg9").text
+                    title = html.find("h1", class_="e1e889nu0").text
                     yield {"title": title, "links": "\n".join(list(links))}
             else:
                 pass
